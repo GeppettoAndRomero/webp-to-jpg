@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://localhost:4321/webp-to-jpg/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/dai/Documents/cloudflare/runlocally/tools/webp-to-jpg/.lighthouseci/localhost-_webp_to_jpg_-2026_06_23_23_40_24.report.html",
+    "jsonPath": "/Users/dai/Documents/cloudflare/runlocally/tools/webp-to-jpg/.lighthouseci/localhost-_webp_to_jpg_-2026_06_23_23_40_24.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 0.98,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]
