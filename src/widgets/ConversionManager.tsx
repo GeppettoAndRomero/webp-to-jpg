@@ -187,7 +187,9 @@ export function ConversionManager({ locale = 'en' }: ConversionManagerProps) {
       downloadedJobIdsRef.current.add(job.id);
       setFailedDownloads((prev) => prev.filter((j) => j.id !== job.id));
     } catch (error) {
-      alert(error instanceof Error ? error.message : t.errDownloadFailed);
+      // 内部エラーメッセージ（英語・非ローカライズ）を露出させず、常にロケール別文言を表示する。
+      console.error('Download failed:', error);
+      alert(t.errDownloadFailed);
     }
   };
 
